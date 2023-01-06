@@ -15,6 +15,11 @@ print('Welcome, here is the system info:')
 print (str(sys.implementation))
 print()
 
+#This was built with
+#MicroPython v1.19.1-724-gfb7d21153 on 2022-12-01; Raspberry Pi Pico W with RP2040
+#System info:
+#(name='micropython', version=(1, 19, 1), _machine='Raspberry Pi Pico W with RP2040', _mpy=4358)
+
 # Set country to avoid possible errors
 rp2.country('US')
 print ('US WiFi country')
