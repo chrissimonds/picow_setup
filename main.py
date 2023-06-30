@@ -34,7 +34,7 @@ if (powerm == '0xa11142'):
 if (powerm == '0xa11140'):
     print ('Power-saving mode OFF')
 if (powerm == '0xA11C82'):
-    print ('Power-saving mode ON - AGRESSIVE')
+    print ('Power-saving mode ON AGRESSIVE')
 if (powerm == '0x111022'):
     print ('Power management mode INCREASE PERFORMANCE')
 
