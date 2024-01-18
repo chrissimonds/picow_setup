@@ -61,7 +61,7 @@ print('----------')
 print ('WLAN Scan: ')
 # print(wlan.scan())
 print ('#  |  SSID  |  BSSID  |  Channel  |  RSSI  |  auth_mode  |  access point count ')
-# Currently last 2 values do not match documenation in https://docs.micropython.org/en/latest/library/network.WLAN.html
+# Currently last 2 values do not match documentation in https://docs.micropython.org/en/latest/library/network.WLAN.html
 # Security/auth_mode value has a bug see: https://github.com/micropython/micropython/issues/10017
 accessPoints = wlan.scan() # list with tuples (ssid, bssid, channel, RSSI, auth_mode, count of times access point name was seen)
 # accessPoints.sort(key=lambda x:x[3],reverse=True) # sorted on RSSI (3)
