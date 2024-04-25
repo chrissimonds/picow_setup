@@ -158,7 +158,7 @@ ssid = secrets["ssid"]
 pw = secrets["pw"]
 
 # To disconnect from the currently connected wireless network
-wlan.disconnect()
+# wlan.disconnect()
 
 wlan.connect(ssid, pw)
 
